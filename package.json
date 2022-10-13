@@ -1,0 +1,20 @@
+{
+  "name": "noctua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently --kill-others \"nodemon ai.js\"  \"nodemon bot.js\""
+  },
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20"
+  }
+}
